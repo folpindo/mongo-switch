@@ -1,0 +1,38 @@
+{
+    "name": "folpindo/mongodb-adapter",
+    "keywords": ["mongo adapter"],
+    "homepage": "http://github.com/folpindo/mongodb-adapter",
+    "require": {
+        "mongodb/mongodb": "^1.0.0@beta"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*",
+        "phpunit/php-invoker": "*",
+        "phpunit/dbunit": ">=1.2",
+        "phpunit/phpunit-skeleton-generator": "~2.0.1"
+    },
+    "authors": [
+        {
+            "name": "Faustino Olpindo, Jr.",
+            "email": "folpindo@gmail.com"
+        }
+
+    ],
+    "repositories": [
+
+    ],
+    "autoload": {
+        "psr-0": {
+
+        }
+        ,
+        "psr-4": {
+             "MongoSwitch\\": "src/"
+        }
+    },
+    "config": {
+        "github-oauth": {
+            "github.com": "3f6295fa5ab7fe780f51b4ab7a78fdcec20e1c91"
+        }
+    }
+}
